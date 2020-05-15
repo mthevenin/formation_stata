@@ -1,0 +1,14 @@
+name: "FORMATION STATA"
+navbar:
+  title: "FORMATION STATA"
+  left:
+    - text: "Home"
+      href: index.html
+
+output:
+  html_document:
+    highlight: espresso
+    number_sections: yes
+    theme: cerulean
+    toc: yes
+    toc_float: yes
