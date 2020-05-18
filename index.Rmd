@@ -1,15 +1,5 @@
 ---
 title: "FORMATION STATA"
-author: "Marc Thevenin"
-output:
-  html_document:
-    highlight: espresso
-    number_sections: yes
-    theme: cerulean
-    toc: yes
-    toc_float: yes
-  word_document:
-    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -1898,7 +1888,7 @@ graph drop nom_graph* \\ pour supprimer tous les graphiques en mémoire temporai
 ```graph drop *``` permet de supprimer tous les graphiques en sauvegarde temporaire si on a pas utilisé l'option `replace` avec name.  
 
 
-## Combinés des graphiques
+## Combiner des graphiques
 
 Marche à suivre:  
 
@@ -1961,7 +1951,7 @@ tw scatter price trunk  , `gopts'
 ```
 
 
-## valeurs automatisée de xline et yline  
+## Valeurs automatiques pour xline et yline  
 
 Un exemple parmis d'autre.  
 On peut ajouté aux graphiques des objets comme xline(valeur) et yline(valeur). Si les valeurs des ces objets sont des indicateurs statistiques 
